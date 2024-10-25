@@ -1,0 +1,72 @@
+.trip-container{
+    height: 24rem;
+}
+
+.dropdown-display-trips {
+    /* border: 1px solid #ccc; */
+    box-shadow: 10px 5px 10px 10px rgba(0, 128, 0, 0.187);
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.dropdown-display-trips span , .trip-3{
+    font-size: 1.5rem;
+}
+
+
+/* trip3 container starts */
+.trip3-container {
+    margin-top: 3%;
+    padding: 1%;
+    /* width: 100%; */
+}
+
+.capture-weight-btn {
+    background-color: #08A99A;
+    width: 18%;
+    padding: 2%;
+    font-size: 1.3rem;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.right-side-images {
+    width: 35px;
+    height: 25px;
+    margin-left: 5px; /* Reduced margin between images */
+}
+
+.flex-trip3 {
+    display: flex;
+    justify-content: space-between; /* Ensures button and images are spaced to edges */
+    align-items: center; /* Vertically align items if necessary */
+    width: 100%;
+}
+
+.image-container-trip3 {
+    display: flex;
+    justify-content: flex-end; /* Aligns the images to the right */
+    width: auto; /* Keeps the image container as wide as needed */
+}
+
+.header-container-trip3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.image-title-trip3 {
+    position: relative; /* Ensures it's aligned with Trip 3 in the flex container */
+    font-size: 1.2rem;
+    color: #08A99A; /* Customize color as needed */
+    justify-content: flex-end;
+    margin-left: 80%;
+    
+}

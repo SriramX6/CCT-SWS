@@ -1,0 +1,109 @@
+/* src/Body.css */
+
+.main-container {
+    display: flex;
+    height: 24rem;
+}
+
+
+.body-container {
+    margin: 2rem;
+    font-family: Arial, sans-serif;
+    padding-top: 5%;
+    width: 70%;
+    height: 70%;
+    /* margin-top: 5%; */
+}
+
+/* .body-container label {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    color: #176346;
+    font-weight: 700;
+} */
+
+.V-no{
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    color: #176346;
+    font-weight: 700;  
+}
+
+.body-container input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+
+
+.body-container p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.body-container2 {
+    /* border : solid black; */
+    width: 40%;
+
+}
+
+.space-between{
+    padding: 3.5%;
+}
+
+.list-trips{
+    list-style: none;
+}
+
+/* for container 2 */
+
+/* CSS */
+.body-container2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 4rem;
+}
+
+.list-trips {
+    margin: 8px 0;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.li-content {
+    display: flex;
+    justify-content: space-between; /* Aligns content to opposite corners */
+    align-items: center;
+}
+
+.left-content {
+    text-align: left; /* Aligns to the left */
+    color: #109144;
+    font-weight: 800;
+    font-family: 'roboto';
+}
+
+.right-content {
+    text-align: right; /* Aligns to the right */
+}
+
+
+/* Save button */
+
+.save-btn {
+    background-color: #08A99A;
+    width: 18%;
+    padding: 2%;
+    font-size: 1.3rem;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 2%;
+    text-align: center;
+
+}
